@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Én Việt Group - Tư vấn vé máy bay nội địa, quốc tế và dịch vụ du lịch.">
+<title>Én Việt Group | Vé Máy Bay & Du Lịch</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;background:#f6f9fc;color:#173850;line-height:1.6}
+header{background:#075986;color:white;padding:22px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:15px}
+.logo{font-size:27px;font-weight:bold}
+.logo span{color:#ff9c38}
+nav a{color:white;text-decoration:none;margin:0 12px;font-weight:bold}
+.hero{background:linear-gradient(125deg,#086b9d,#40a9cf 55%,#ffad59);color:white;text-align:center;padding:95px 20px}
+.hero h1{font-size:clamp(30px,5vw,52px);margin:0 0 15px}
+.hero p{font-size:19px;max-width:670px;margin:0 auto 28px}
+.btn{display:inline-block;background:#ff8722;color:white;padding:13px 28px;border-radius:9px;text-decoration:none;font-weight:bold}
+section{max-width:1120px;margin:auto;padding:55px 20px}
+h2{text-align:center;font-size:30px;margin:0 0 30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.card{background:white;border-radius:14px;padding:28px 22px;box-shadow:0 5px 24px #1234;text-align:center}
+.card .emoji{font-size:39px}
+.card h3{color:#09658f}
+.about{background:#eaf5fa;border-radius:18px;text-align:center;padding:35px}
+.airlines{text-align:center}
+.airlines a{display:inline-block;color:#09658f;background:white;padding:12px 18px;margin:7px;border-radius:8px;text-decoration:none}
+.contact{text-align:center;background:#fff4e8;border-radius:18px;padding:35px}
+footer{background:#075986;color:white;text-align:center;padding:25px}
+@media(max-width:650px){header{justify-content:center;text-align:center}nav a{display:inline-block;margin:7px}.hero{padding:65px 18px}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">✈ ÉN VIỆT <span>GROUP</span></div>
+<nav>
+<a href="#home">Trang chủ</a>
+<a href="#services">Dịch vụ</a>
+<a href="#about">Giới thiệu</a>
+<a href="#contact">Liên hệ</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<h1>ÉN VIỆT GROUP</h1>
+<p>Đồng hành cùng bạn trên mọi hành trình. Tư vấn vé máy bay nội địa và quốc tế, hỗ trợ dịch vụ du lịch tận tâm.</p>
+<a class="btn" href="#contact">TƯ VẤN ĐẶT VÉ NGAY</a>
+</div>
+
+<section id="services">
+<h2>Dịch vụ của chúng tôi</h2>
+<div class="grid">
+<div class="card"><div class="emoji">✈️</div><h3>Vé máy bay nội địa</h3><p>Tư vấn lịch bay và lựa chọn hành trình phù hợp.</p></div>
+<div class="card"><div class="emoji">🌍</div><h3>Vé máy bay quốc tế</h3><p>Hỗ trợ tìm kiếm hành trình đến nhiều quốc gia.</p></div>
+<div class="card"><div class="emoji">🏨</div><h3>Khách sạn</h3><p>Hỗ trợ đặt phòng cho khách du lịch và công tác.</p></div>
+<div class="card"><div class="emoji">🧳</div><h3>Tour du lịch</h3><p>Tư vấn tour cá nhân, gia đình và khách đoàn.</p></div>
+</div>
+</section>
+
+<section id="about">
+<div class="about">
+<h2>Giới thiệu Én Việt Group</h2>
+<p>Én Việt Group hướng đến dịch vụ tư vấn vé máy bay và du lịch thuận tiện, rõ ràng và tận tâm.</p>
+<p>Hỗ trợ thông tin chuyến bay, hành lý và lịch trình theo nhu cầu khách hàng.</p>
+<p>📍 Hà Nội – Việt Nam</p>
+</div>
+</section>
+
+<section class="airlines">
+<h2>Tham khảo các hãng hàng không</h2>
+<a href="https://www.vietnamairlines.com/" target="_blank" rel="noopener noreferrer">Vietnam Airlines ↗</a>
+<a href="https://www.vietjetair.com/" target="_blank" rel="noopener noreferrer">Vietjet Air ↗</a>
+<a href="https://www.bambooairways.com/" target="_blank" rel="noopener noreferrer">Bamboo Airways ↗</a>
+<a href="https://www.thaiairways.com/" target="_blank" rel="noopener noreferrer">Thai Airways ↗</a>
+</section>
+
+<section id="contact">
+<div class="contact">
+<h2>Liên hệ tư vấn đặt vé</h2>
+<p>Én Việt Group – Hà Nội, Việt Nam</p>
+<p>Để được hỗ trợ, vui lòng liên hệ qua kênh chính thức của đại lý.</p>
+<a class="btn" href="https://www.facebook.com/EnVietGroupOfficial/" target="_blank" rel="noopener noreferrer">LIÊN HỆ QUA FACEBOOK</a>
+</div>
+</section>
+
+<footer>
+<strong>ÉN VIỆT GROUP</strong>
+<p>Vé máy bay nội địa & quốc tế – Dịch vụ du lịch</p>
+<small>© 2026 Én Việt Group. All rights reserved.</small>
+</footer>
+</body>
+</html>
